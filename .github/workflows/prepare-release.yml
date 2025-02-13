@@ -1,0 +1,50 @@
+name: Prepare Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to bump to (e.g. patch, minor, major, or specific version)"
+        required: true
+        default: "patch"
+
+jobs:
+  prepare-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Update version
+        run: |
+          npm version ${{ github.event.inputs.version }} --no-git-tag-version
+          NEW_VERSION=$(node -p "require('./package.json').version")
+          echo "NEW_VERSION=$NEW_VERSION" >> $GITHUB_ENV
+
+      - name: Generate changelog
+        id: changelog
+        run: |
+          npx conventional-changelog-cli -p angular -i CHANGELOG.md -s
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "chore(release): v${{ env.NEW_VERSION }}"
+          title: "chore(release): prepare release v${{ env.NEW_VERSION }}"
+          body: |
+            Prepare release v${{ env.NEW_VERSION }}
+
+            - Update version in package.json
+            - Update CHANGELOG.md
+          base: main
+          branch: release/v${{ env.NEW_VERSION }}
