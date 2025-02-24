@@ -78,9 +78,6 @@ typings/
 # lib
 lib/
 
-# docs
-docs/
-
 **/.DS_Store
 
 build/

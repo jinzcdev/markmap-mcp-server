@@ -1,0 +1,166 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="w-full h-full leading-none markmap" style="--markmap-max-width: 500px" viewBox="-20 -200 1250 350">
+    <rect x="-20" y="-200" width="1250" height="350" fill="white"/>
+    <style>.markmap{--markmap-max-width: 9999px;--markmap-a-color: #0097e6;--markmap-a-hover-color: #00a8ff;--markmap-code-bg: #f0f0f0;--markmap-code-color: #555;--markmap-highlight-bg: #ffeaa7;--markmap-table-border: 1px solid currentColor;--markmap-font: 300 16px/20px sans-serif;--markmap-circle-open-bg: #fff;--markmap-text-color: #333;--markmap-highlight-node-bg: #ff02;font:var(--markmap-font);color:var(--markmap-text-color)}.markmap-link{fill:none}.markmap-node&gt;circle{cursor:pointer}.markmap-foreign{display:inline-block}.markmap-foreign p{margin:0}.markmap-foreign a{color:var(--markmap-a-color)}.markmap-foreign a:hover{color:var(--markmap-a-hover-color)}.markmap-foreign code{padding:.25em;font-size:calc(1em - 2px);color:var(--markmap-code-color);background-color:var(--markmap-code-bg);border-radius:2px}.markmap-foreign pre{margin:0}.markmap-foreign pre&gt;code{display:block}.markmap-foreign del{text-decoration:line-through}.markmap-foreign em{font-style:italic}.markmap-foreign strong{font-weight:700}.markmap-foreign mark{background:var(--markmap-highlight-bg)}.markmap-foreign table,.markmap-foreign th,.markmap-foreign td{border-collapse:collapse;border:var(--markmap-table-border)}.markmap-foreign img{display:inline-block}.markmap-foreign svg{fill:currentColor}.markmap-foreign&gt;div{width:var(--markmap-max-width);text-align:left}.markmap-foreign&gt;div&gt;div{display:inline-block}.markmap-highlight rect{fill:var(--markmap-highlight-node-bg)}.markmap-dark .markmap{--markmap-code-bg: #1a1b26;--markmap-code-color: #ddd;--markmap-circle-open-bg: #444;--markmap-text-color: #eee}</style>
+    
+    <g>
+        <path class="markmap-link" data-depth="3" data-path="1.13.14" d="M 337 87.5 C 377 87.5 377 87.3 417 87.3" stroke-width="1.375" stroke="rgb(214, 39, 40)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.2.3" d="M 305 -92.5 C 345 -92.5 345 -147.4 385 -147.4" stroke-width="1.375" stroke="rgb(148, 103, 189)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.2.4" d="M 305 -92.5 C 345 -92.5 345 -120.1 385 -120.1" stroke-width="1.375" stroke="rgb(140, 86, 75)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.2.5" d="M 305 -92.5 C 345 -92.5 345 -92.7 385 -92.7" stroke-width="1.375" stroke="rgb(227, 119, 194)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.2.6" d="M 305 -92.5 C 345 -92.5 345 -65.3 385 -65.3" stroke-width="1.375" stroke="rgb(127, 127, 127)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.2.7" d="M 305 -92.5 C 345 -92.5 345 -37.9 385 -37.9" stroke-width="1.375" stroke="rgb(188, 189, 34)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.8.9" d="M 337 -5.4 C 377 -5.4 377 -5.6 417 -5.6" stroke-width="1.375" stroke="rgb(31, 119, 180)"/>
+        <path class="markmap-link" data-depth="3" data-path="1.10.11" d="M 305 27.4 C 345 27.4 345 27.2 385 27.2" stroke-width="1.375" stroke="rgb(44, 160, 44)"/>
+        <path class="markmap-link" data-depth="4" data-path="1.13.14.15" d="M 606 87.3 C 646 87.3 646 64.1 686 64.1" stroke-width="1.1875" stroke="rgb(148, 103, 189)"/>
+        <path class="markmap-link" data-depth="4" data-path="1.13.14.16" d="M 606 87.3 C 646 87.3 646 112.3 686 112.3" stroke-width="1.1875" stroke="rgb(140, 86, 75)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.2" d="M 177 11.8 C 217 11.8 217 -92.5 257 -92.5" stroke-width="1.75" stroke="rgb(255, 127, 14)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.8" d="M 177 11.8 C 217 11.8 217 -5.4 257 -5.4" stroke-width="1.75" stroke="rgb(23, 190, 207)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.10" d="M 177 11.8 C 217 11.8 217 27.4 257 27.4" stroke-width="1.75" stroke="rgb(255, 127, 14)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.12" d="M 177 11.8 C 217 11.8 217 59.8 257 59.8" stroke-width="1.75" stroke="rgb(255, 127, 14)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.13" d="M 177 11.8 C 217 11.8 217 87.5 257 87.5" stroke-width="1.75" stroke="rgb(44, 160, 44)"/>
+        <path class="markmap-link" data-depth="2" data-path="1.17" d="M 177 11.8 C 217 11.8 217 115.3 257 115.3" stroke-width="1.75" stroke="rgb(227, 119, 194)"/>
+        <g class="markmap-highlight"/>
+        <g data-depth="3" data-path="1.2.3" class="markmap-node" transform="translate(385,-169.1)">
+            <line stroke="#9467bd" stroke-width="1.375" x1="-1" x2="516" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="498" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">🌠 <strong>Markdown 转思维导图</strong>：将 Markdown 文本转换为交互式思维导图</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.2.4" class="markmap-node" transform="translate(385,-141.8)">
+            <line stroke="#8c564b" stroke-width="1.375" x1="-1" x2="446" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="428" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">🖼️ <strong>多格式导出</strong>：支持导出为 PNG、JPG 和 SVG 格式的图片</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.2.5" class="markmap-node" transform="translate(385,-114.4)">
+            <line stroke="#e377c2" stroke-width="1.375" x1="-1" x2="402" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="384" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">🔄 <strong>交互式操作</strong>：支持缩放、展开/折叠节点等交互功能</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.2.6" class="markmap-node" transform="translate(385,-87)">
+            <line stroke="#7f7f7f" stroke-width="1.375" x1="-1" x2="388" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="370" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">📋 <strong>Markdown 复制</strong>：一键复制原始 Markdown 内容</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.2.7" class="markmap-node" transform="translate(385,-59.6)">
+            <line stroke="#bcbd22" stroke-width="1.375" x1="-1" x2="474" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="456" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">🌐 <strong>自动浏览器预览</strong>：可选择自动在浏览器中打开生成的思维导图</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.2" class="markmap-node" transform="translate(257,-114.4)">
+            <line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="50" y1="21.875" y2="21.875"/>
+            <circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="48" cy="21.9"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="32" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">特性</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.8.9" class="markmap-node" transform="translate(417,-27.3)">
+            <line stroke="#1f77b4" stroke-width="1.375" x1="-1" x2="157" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="139" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">1. Node.js 运行环境</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.8" class="markmap-node" transform="translate(257,-27.3)">
+            <line stroke="#17becf" stroke-width="1.75" x1="-1" x2="82" y1="21.875" y2="21.875"/>
+            <circle stroke-width="1.5" r="6" stroke="#17becf" fill="var(--markmap-circle-open-bg)" cx="80" cy="21.9"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">前提条件</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.10.11" class="markmap-node" transform="translate(385,5.5)">
+            <line stroke="#2ca02c" stroke-width="1.375" x1="-1" x2="82" y1="21.6875" y2="21.6875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">手动安装</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.10" class="markmap-node" transform="translate(257,5.5)">
+            <line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="50" y1="21.875" y2="21.875"/>
+            <circle stroke-width="1.5" r="6" stroke="#ff7f0e" fill="var(--markmap-circle-open-bg)" cx="48" cy="21.9"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="32" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">安装</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.12" class="markmap-node" transform="translate(257,37.9)">
+            <line stroke="#ff7f0e" stroke-width="1.75" x1="-1" x2="82" y1="21.875" y2="21.875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">使用方法</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="4" data-path="1.13.14.15" class="markmap-node" transform="translate(686,40.5)">
+            <line stroke="#9467bd" stroke-width="1.1875" x1="-1" x2="401" y1="23.59375" y2="23.59375"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="383" height="23">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml"><code>markdown</code>：要转换的 Markdown 内容（必填字符串）</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="4" data-path="1.13.14.16" class="markmap-node" transform="translate(686,69.7)">
+            <line stroke="#8c564b" stroke-width="1.1875" x1="-1" x2="518" y1="42.59375" y2="42.59375"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="500" height="42">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml"><code>open</code>：是否在浏览器中自动打开生成的思维导图（可选布尔值，默认为 false）</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="3" data-path="1.13.14" class="markmap-node" transform="translate(417,65.6)">
+            <line stroke="#d62728" stroke-width="1.375" x1="-1" x2="191" y1="21.6875" y2="21.6875"/>
+            <circle stroke-width="1.5" r="6" stroke="#d62728" fill="var(--markmap-circle-open-bg)" cx="189" cy="21.7"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="173" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">markdown-to-mindmap</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.13" class="markmap-node" transform="translate(257,65.6)">
+            <line stroke="#2ca02c" stroke-width="1.75" x1="-1" x2="82" y1="21.875" y2="21.875"/>
+            <circle stroke-width="1.5" r="6" stroke="#2ca02c" fill="var(--markmap-circle-open-bg)" cx="80" cy="21.9"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="64" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">可用工具</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="2" data-path="1.17" class="markmap-node" transform="translate(257,93.4)">
+            <line stroke="#e377c2" stroke-width="1.75" x1="-1" x2="66" y1="21.875" y2="21.875"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="48" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">许可证</div>
+                </div>
+            </foreignObject>
+        </g>
+        <g data-depth="1" data-path="1" class="markmap-node" transform="translate(0,-10.5)">
+            <line stroke="#1f77b4" stroke-width="2.5" x1="-1" x2="179" y1="22.25" y2="22.25"/>
+            <circle stroke-width="1.5" r="6" stroke="#1f77b4" fill="var(--markmap-circle-open-bg)" cx="177" cy="22.3"/>
+            <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="161" height="21">
+                <div xmlns="http://www.w3.org/1999/xhtml">
+                    <div xmlns="http://www.w3.org/1999/xhtml">Markmap MCP 服务器</div>
+                </div>
+            </foreignObject>
+        </g>
+    </g>
+</svg>
