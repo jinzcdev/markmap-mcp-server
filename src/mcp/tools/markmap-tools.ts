@@ -8,8 +8,8 @@ import { ToolRegistry } from "./tool-registry.js";
 export class MarkmapToolRegistry extends ToolRegistry {
     public register(): void {
         this.server.tool(
-            "markdown-to-markmap",
-            "Convert Markdown to Mind Map",
+            "markdown_to_mindmap",
+            "Convert a Markdown document into a mind map",
             {
                 markdown: z
                     .string()
@@ -18,7 +18,7 @@ export class MarkmapToolRegistry extends ToolRegistry {
                     .boolean()
                     .default(false)
                     .describe(
-                        "Whether to open the generated mind map in browser, defaults to false"
+                        "Whether to open the generated mind map in a browser (default: false)"
                     )
             },
             async ({ markdown, open }) => {
