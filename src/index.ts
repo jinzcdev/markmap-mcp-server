@@ -88,6 +88,6 @@ async function main() {
 }
 
 main().catch((error) => {
-    logger.error("Failed to start Markmap MCP Server:", error);
+    logger.error("Failed to start Markmap MCP Server: %s", error);
     process.exit(1);
 });
