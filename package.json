@@ -6,6 +6,9 @@
     "main": "./build/index.js",
     "keywords": [
         "markmap",
+        "mindmap",
+        "mindnode",
+        "xmind",
         "mcp"
     ],
     "scripts": {
