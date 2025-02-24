@@ -9,7 +9,7 @@ export class MarkmapToolRegistry extends ToolRegistry {
     public register(): void {
         this.server.tool(
             "markdown_to_mindmap",
-            "Convert a Markdown document into a mind map",
+            "Convert a Markdown document into an interactive mind map",
             {
                 markdown: z
                     .string()
