@@ -1,0 +1,30 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required: []
+    properties:
+      output:
+        type: string
+        description: Output directory for mind map HTML files (optional)
+      open:
+        type: boolean
+        default: false
+        description: Whether to open the generated mind map in a browser
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'node',
+      args: [
+        'build/index.js',
+        ...(config.output ? ['--output', config.output] : []),
+        ...(config.open ? ['--open'] : [])
+      ]
+    })
+  exampleConfig:
+    output: /tmp/markmap
+    open: false
