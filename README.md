@@ -6,6 +6,7 @@
 [![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
 [![中文文档](https://img.shields.io/badge/中文文档-点击查看-blue)](README_zh-CN.md)
 [![Stars](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server)](https://github.com/jinzcdev/markmap-mcp-server)
+[![smithery badge](https://smithery.ai/badge/@jinzcdev/markmap-mcp-server)](https://smithery.ai/server/@jinzcdev/markmap-mcp-server)
 
 Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelcontextprotocol.io/introduction) that allows one-click conversion of Markdown text to interactive mind maps, built on the open source project [markmap](https://github.com/markmap/markmap). The generated mind maps support rich interactive operations and can be exported in various image formats.
 
@@ -22,6 +23,14 @@ Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelc
 1. Node.js runtime environment
 
 ## Installation
+
+### Installing via Smithery
+
+To install Markmap MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jinzcdev/markmap-mcp-server):
+
+```bash
+npx -y @smithery/cli install @jinzcdev/markmap-mcp-server --client claude
+```
 
 ### Manual Installation
 
