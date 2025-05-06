@@ -4,6 +4,7 @@
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
 [![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
+[![Smithery Badge](https://smithery.ai/badge/@jinzcdev/markmap-mcp-server)](https://smithery.ai/server/@jinzcdev/markmap-mcp-server)
 [![中文文档](https://img.shields.io/badge/中文文档-点击查看-blue)](README_zh-CN.md)
 [![Stars](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server)](https://github.com/jinzcdev/markmap-mcp-server)
 
@@ -22,6 +23,14 @@ Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelc
 1. Node.js runtime environment
 
 ## Installation
+
+### Installing via Smithery
+
+To install Markmap MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@jinzcdev/markmap-mcp-server):
+
+```bash
+npx -y @smithery/cli install @jinzcdev/markmap-mcp-server --client claude
+```
 
 ### Manual Installation
 
