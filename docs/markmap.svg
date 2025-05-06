@@ -55,7 +55,7 @@
             <line stroke="#bcbd22" stroke-width="1.375" x1="-1" x2="518" y1="41.6875" y2="41.6875"/>
             <foreignObject class="markmap-foreign" x="8" y="0" style="opacity: 1;" width="500" height="41">
                 <div xmlns="http://www.w3.org/1999/xhtml">
-                    <div xmlns="http://www.w3.org/1999/xhtml">🌐                        <strong>Browser Opening</strong>: Option to automatically open generated mind maps in the browser</div>
+                    <div xmlns="http://www.w3.org/1999/xhtml">🌐                        <strong>Automatic Browser Preview</strong>: Option to automatically open generated mind maps in the browser</div>
                 </div>
             </foreignObject>
         </g>
