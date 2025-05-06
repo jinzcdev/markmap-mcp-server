@@ -3,7 +3,7 @@
 ![321](./docs/markmap_zh.svg)
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
-[![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
+[![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
 [![English Doc](https://img.shields.io/badge/English-Click-blue)](README.md)
 [![Stars](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server)](https://github.com/jinzcdev/markmap-mcp-server)
 
