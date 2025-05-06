@@ -1,6 +1,6 @@
 # Markmap MCP 服务器
 
-![321](./docs/markmap_zh.svg)
+![Sample Mindmap](./docs/markmap_zh.svg)
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
 [![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
