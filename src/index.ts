@@ -36,8 +36,7 @@ function parseArgs() {
     }
 
     return {
-        output: args.output || process.env.MARKMAP_DIR,
-        open: args.open || false
+        output: args.output || process.env.MARKMAP_DIR
     };
 }
 
