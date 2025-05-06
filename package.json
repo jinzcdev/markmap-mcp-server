@@ -1,7 +1,7 @@
 {
     "name": "@jinzcdev/markmap-mcp-server",
     "description": "MCP server for converting Markdown to interactive mind maps with export support (PNG/JPG/SVG)",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "jinzcdev",
     "main": "./build/index.js",
     "keywords": [
