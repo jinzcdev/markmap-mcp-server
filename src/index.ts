@@ -2,10 +2,9 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import minimist from "minimist";
-import { existsSync, mkdirSync, readFileSync } from "node:fs";
+import { existsSync, mkdirSync } from "node:fs";
 import { tmpdir } from "node:os";
-import { dirname, join } from "node:path";
-import { fileURLToPath } from "node:url";
+import { join } from "node:path";
 import { registerMarkmapTools } from "./mcp/tools/markmap-tools.js";
 import logger from "./utils/logger.js";
 
@@ -36,21 +35,9 @@ function parseArgs() {
     }
 
     return {
-        output: args.output || process.env.MARKMAP_DIR
+        output: args.output || process.env.MARKMAP_DIR,
+        open: args.open || false
     };
-}
-
-/**
- * Retrieves the package.json object containing metadata about the project.
- *
- * @returns The package.json object containing metadata about the project.
- */
-function getPackageJson() {
-    const __filename = fileURLToPath(import.meta.url);
-    const __dirname = dirname(__filename);
-    const packageJSONPath = join(__dirname, "..", "package.json");
-    const packageJSON = JSON.parse(readFileSync(packageJSONPath, "utf-8"));
-    return packageJSON;
 }
 
 /**
@@ -59,11 +46,10 @@ function getPackageJson() {
  */
 async function main() {
     const options = parseArgs();
-    const packageJSON = getPackageJson();
 
     const server = new McpServer({
         name: "Markmap MCP Server",
-        version: packageJSON.version
+        version: "0.1.0"
     });
 
     let outputPath;
