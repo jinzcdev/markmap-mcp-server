@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/jinzcdev-markmap-mcp-server-badge.png)](https://mseep.ai/app/jinzcdev-markmap-mcp-server)
+
 # Markmap MCP Server
 
 ![Sample Mindmap](./docs/markmap.svg)
