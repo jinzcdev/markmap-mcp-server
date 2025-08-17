@@ -4,6 +4,8 @@
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
 [![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
+
+[![Trust Score](https://archestra.ai/mcp-catalog/api/badge/quality/jinzcdev/markmap-mcp-server)](https://archestra.ai/mcp-catalog/jinzcdev__markmap-mcp-server)
 [![Smithery Badge](https://smithery.ai/badge/@jinzcdev/markmap-mcp-server)](https://smithery.ai/server/@jinzcdev/markmap-mcp-server)
 [![中文文档](https://img.shields.io/badge/中文文档-点击查看-blue)](README_zh-CN.md)
 [![Stars](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server)](https://github.com/jinzcdev/markmap-mcp-server)
