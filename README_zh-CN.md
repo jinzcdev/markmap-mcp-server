@@ -3,16 +3,12 @@
 ![Sample Mindmap](./docs/markmap_zh.svg)
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
+[![NPM Downloads](https://img.shields.io/npm/dm/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
 [![GitHub License](https://img.shields.io/github/license/jinzcdev/markmap-mcp-server.svg)](LICENSE)
-[![Smithery Badge](https://smithery.ai/badge/@jinzcdev/markmap-mcp-server)](https://smithery.ai/server/@jinzcdev/markmap-mcp-server)
-[![English Doc](https://img.shields.io/badge/English-Click-blue)](README.md)
+[![English Doc](https://img.shields.io/badge/English-View-blue)](README.md)
 [![Stars](https://img.shields.io/github/stars/jinzcdev/markmap-mcp-server)](https://github.com/jinzcdev/markmap-mcp-server)
 
 Markmap MCP Server 基于 [模型上下文协议 (MCP)](https://modelcontextprotocol.io/introduction)，可将 Markdown 文本一键转换为交互式思维导图，底层采用开源项目 [markmap](https://github.com/markmap/markmap)。生成的思维导图支持丰富的交互操作，并可导出为多种图片格式。
-
-> 🎉 **探索更多思维导图工具**
->
-> 试试 [MarkXMind](https://github.com/jinzcdev/markxmind) - 一款使用简洁的 XMindMark 语法创建复杂思维导图的在线编辑器。支持实时预览、多格式导出(.xmind/.svg/.png)、导入现有 XMind 文件。[立即体验](https://markxmind.js.org/)！
 
 ## 特性
 
@@ -109,6 +105,15 @@ node build/index.js
   ]
 }
 ```
+
+## 相关项目
+
+🎉 探索更多思维导图工具：
+
+| 项目                                                                            | 说明                                                                                                                                                               |
+| ------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **[MarkXMind Online](https://github.com/jinzcdev/markxmind)**                   | 用 Markdown 在线创建 XMind 思维导图。支持实时预览、一键导出为 `.xmind` / `.md` / `.png` / `.svg`，以及导入现有 XMind 文件。[立即体验 →](https://markxmind.js.org/) |
+| **[Obsidian MarkXMind Plugin](https://github.com/jinzcdev/obsidian-markxmind)** | Obsidian 插件，支持在 `xmind` 代码块中将 XMindMark 语法渲染为 XMind 思维导图。                                                                                     |
 
 ## 许可证
 
