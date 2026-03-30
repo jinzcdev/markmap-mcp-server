@@ -18,6 +18,10 @@ Markmap MCP Server is based on the [Model Context Protocol (MCP)](https://modelc
 - 📋 **Markdown Copy**: One-click copy of the original Markdown content
 - 🌐 **Automatic Browser Preview**: Option to automatically open generated mind maps in the browser
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/jinzcdev-markmap-mcp-server).
+
 ## Prerequisites
 
 1. Node.js (v20 or above)
