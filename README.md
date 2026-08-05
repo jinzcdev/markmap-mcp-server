@@ -1,5 +1,7 @@
 # Markmap MCP Server
 
+[![MCP Toplist](https://mcptoplist.com/badge/glama%2Fjinzcdev%2Fmarkmap-mcp-server.svg)](https://mcptoplist.com/server/glama%2Fjinzcdev%2Fmarkmap-mcp-server)
+
 ![Sample Mindmap](./docs/markmap.svg)
 
 [![NPM Version](https://img.shields.io/npm/v/@jinzcdev/markmap-mcp-server.svg)](https://www.npmjs.com/package/@jinzcdev/markmap-mcp-server)
